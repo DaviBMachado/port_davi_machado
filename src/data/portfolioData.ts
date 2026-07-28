@@ -16,6 +16,66 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 6,
+    title: "JCar Mecânica — SPA",
+    description:
+      "Single Page Application para gestão de ordens de serviço de uma mecânica, com dashboard, cadastro de clientes e histórico de reparos.",
+    tags: ["SPA", "TypeScript", "React", "Gestão"],
+    githubUrl: "https://github.com/DaviBMachado/jcar_mecanica",
+    image: "",
+    placeholderColor: "#FEF3C7",
+  },
+  {
+    id: 7,
+    title: "Tamura Mecânica — Landing Page",
+    description:
+      "Landing page institucional para oficina mecânica, com apresentação de serviços, contato e localização.",
+    tags: ["HTML", "CSS", "Landing Page", "Frontend"],
+    githubUrl: "https://github.com/DaviBMachado/tamura_mecanica",
+    image: "",
+    placeholderColor: "#ECFDF5",
+  },
+  {
+    id: 8,
+    title: "API Cadastro — Gestão de Pessoas",
+    description:
+      "API RESTful para cadastro e gestão de pessoas construída com Python e FastAPI, com operações CRUD completas.",
+    tags: ["Python", "FastAPI", "API", "Backend"],
+    githubUrl: "https://github.com/DaviBMachado/APICadastroGestaoPessoas",
+    image: "",
+    placeholderColor: "#F5F3FF",
+  },
+  {
+    id: 9,
+    title: "Calculo IPTU — App Android",
+    description:
+      "Aplicativo Android para cálculo de IPTU desenvolvido em Java no Android Studio, com interface intuitiva e validações fiscais.",
+    tags: ["Java", "Android", "Mobile"],
+    githubUrl: "https://github.com/DaviBMachado/CalculoIptu",
+    image: "",
+    placeholderColor: "#FFF1F2",
+  },
+  {
+    id: 10,
+    title: "ElectionApp — Sistema Eleitoral",
+    description:
+      "Aplicação Java para simulação de processos eleitorais com cadastro de candidatos, votação e apuração de resultados.",
+    tags: ["Java", "Desktop", "Swing"],
+    githubUrl: "https://github.com/DaviBMachado/ElectionApp",
+    image: "",
+    placeholderColor: "#EFF6FF",
+  },
+  {
+    id: 11,
+    title: "Landing Page Coca-Cola",
+    description:
+      "Página institucional com animações CSS integradas, explorando design visual e transições suaves para apresentação da marca.",
+    tags: ["HTML", "CSS", "Animação", "Frontend"],
+    githubUrl: "https://github.com/DaviBMachado/LandingPage-CocaCola",
+    image: "",
+    placeholderColor: "#FEF2F2",
+  },
+  {
     id: 1,
     title: "IBDN — Gestão de Selos",
     description:
